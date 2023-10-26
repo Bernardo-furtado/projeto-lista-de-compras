@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <button onclick="showLoginForm()">Login</button>
+    <div id="loginForm" style="display: none;">
+     <form id="loginForm">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="password">Senha:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <input type="submit" value="Entrar">
+     </form>
+    </div>
+    <title>Document</title>
+</head>
+<body>
+    <script>   
+    function showLoginForm() {
+        var x = document.getElementById("loginForm");
+        if (x.style.display === "none") {
+           x.style.display = "block";
+        } else {
+           x.style.display = "none";
+        }
+       }
+    </script> 
+</body>
+</html>
