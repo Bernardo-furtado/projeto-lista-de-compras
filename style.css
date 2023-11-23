@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+/* Insignia HTML Nivel 1:  Aplique estilos simples de CSS: cores, fontes e tamanhos. */
+
+#descricao {
+    background-color: rgb(230, 220, 220);
+}
+
+.login-principal {
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-esquerdo{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
