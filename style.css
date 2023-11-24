@@ -2,9 +2,35 @@ body {
     margin: 0;
 }
 /* Insignia HTML Nivel 1:  Aplique estilos simples de CSS: cores, fontes e tamanhos. */
+.conteudo-centralizado {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
-#descricao {
-    background-color: rgb(230, 220, 220);
+body {
+    background-color: rgb(247, 203, 255);
+}
+
+.container-login {
+    display: flex;
+    flex-direction: row;
+}
+
+.login-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
 
 .login-principal {
